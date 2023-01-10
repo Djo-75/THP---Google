@@ -1,0 +1,129 @@
+body {
+    font-family: Arial;
+    text-decoration: none;
+    max-height: 100vh;
+    margin: 0;
+}
+
+
+
+#header{
+    display:flex;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 15px;
+    font-size: 13px;
+    gap: 20px;
+    text-decoration: none;
+    color:#303134
+}
+
+
+#connexion{
+    background-color:#1a73e8;
+    width:101.19px;
+    color: white;
+    text-decoration: none;
+    padding: 9px 15px;
+    border-radius: 4px
+}
+
+#logo{
+    height: 92px;
+    text-align: center
+}
+
+.logo-google{
+    max-height: 92px;
+    width: auto;
+}
+
+
+#input-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search-bar{
+    width: 582px;
+    padding: 6px 10px;
+    border-radius: 24px;
+}
+
+.loupe, .micro  {
+    max-height: 20px;
+    max-width: 20px;
+}
+
+
+
+#blank{
+    display:flex;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    height: 116.33px;
+    text-align:center;
+}
+
+.action-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.wrapper-feuille {
+  display: flex;
+  justify-content: center;
+}
+
+#feuille-img {
+  margin-right: 6px;
+}
+
+
+#footer{
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    display:flex;
+    width: 100%;
+    align-content:flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    bottom: 0;
+}
+
+.France{
+    margin: 15px
+}
+
+#footer1{
+    flex-direction: row;
+}
+
+#feuille {
+    position: center;
+}
+
+#footer1 a{
+    width: 100px;
+    padding: 15px;
+    border: 5px;
+}
+
+#footer2 a{
+    width: 100px;
+    padding: 15px;
+    border: 5px;
+}
